@@ -1,16 +1,16 @@
-ctrl + g ; c
+ctrl + alt + g ; c
   alacritty -e nvim ~/.config/sxhkd/sxhkdrc
 ctrl + alt + f
   firefox
-ctrl + g ; a
+ctrl + alt + g ; a
   firefox https://calendar.google.com
-ctrl + g ; g
+ctrl + alt + g ; g
   firefox https://mail.google.com/
-ctrl + g ; m
+ctrl + alt + g ; m
  firefox file:///home/guto/MEGAsync/Pessoais/wikis/minister.html
-ctrl + g ; n
+ctrl + alt + g ; n
   firefox file:///home/guto/MEGAsync/Pessoais/wikis/notas.html
-ctrl + g ; w
+ctrl + alt + g ; w
   firefox https://web.whatsapp.com/
 ctrl + alt + w
   firefox file:///home/guto/MEGAsync/Pessoais/wikis/workings.html
