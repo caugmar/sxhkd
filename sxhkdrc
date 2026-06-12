@@ -1,20 +1,48 @@
+# CONFIGURAÇÃO DO SXHKD
 ctrl + alt + g ; c
   alacritty -e nvim ~/.config/sxhkd/sxhkdrc
+
+# RECARREGAR CONFIGURAÇÃO
+ctrl + alt + g ; r
+  pkill -usr1 -x sxhkd
+
+# FIREFOX
 ctrl + alt + f
   firefox
+
+# GOOGLE AGENDA
 ctrl + alt + g ; a
   firefox https://calendar.google.com
+
+# GMAIL
 ctrl + alt + g ; g
   firefox https://mail.google.com/
+
+# WIKI MINISTER
 ctrl + alt + g ; m
  firefox file:///home/guto/MEGAsync/Pessoais/wikis/minister.html
+
+# WIKI NOTAS PESSOAIS
 ctrl + alt + g ; n
   firefox file:///home/guto/MEGAsync/Pessoais/wikis/notas.html
+
+# WHATSAPP WEB
 ctrl + alt + g ; w
   firefox https://web.whatsapp.com/
+
+# WORKINGS 
 ctrl + alt + w
   firefox file:///home/guto/MEGAsync/Pessoais/wikis/workings.html
+
+# PASTA PESSOAL
 ctrl + alt + p
   nemo /home/guto/MEGAsync/Pessoais
+
+# TERMINAL
 ctrl + alt + t
   alacritty
+
+# CALCULADORA
+ctrl + alt + c
+  gnome-calculator
+
