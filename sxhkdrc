@@ -10,6 +10,10 @@ ctrl + alt + g ; r
 ctrl + alt + f
   firefox
 
+# EMACS
+ctrl + alt + e
+  emacsclient -n -c -a '\'''\'''
+
 # GOOGLE AGENDA
 ctrl + alt + g ; a
   firefox https://calendar.google.com
@@ -33,6 +37,10 @@ ctrl + alt + g ; w
 # WORKINGS 
 ctrl + alt + w
   firefox file:///home/guto/MEGAsync/Pessoais/wikis/workings.html
+
+# NEGÓCIOS
+ctrl + alt + n
+  firefox file:///home/guto/MEGAsync/Pessoais/wikis/negocios.html
 
 # PASTA PESSOAL
 ctrl + alt + p
