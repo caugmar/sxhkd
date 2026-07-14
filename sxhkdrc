@@ -1,6 +1,6 @@
 # CONFIGURAÇÃO DO SXHKD
 ctrl + alt + g ; c
-  alacritty -e nvim ~/.config/sxhkd/sxhkdrc & sleep 0.3 && wmctrl -xa Alacritty.Alacritty
+  gvim ~/.config/sxhkd/sxhkdrc 
 
 # RECARREGAR CONFIGURAÇÃO
 ctrl + alt + g ; r
@@ -12,7 +12,7 @@ ctrl + alt + f
 
 # EMACS
 ctrl + alt + e
-  emacsclient -n -c -a '\'''\'''
+  emacsclient -n -c -a ''
 
 # GOOGLE AGENDA
 ctrl + alt + g ; a
@@ -48,10 +48,14 @@ ctrl + alt + p
 
 # TERMINAL
 ctrl + alt + t
-# alacritty
-  alacritty & sleep 0.3 && wmctrl -xa Alacritty.Alacritty
+  alacritty
+#  alacritty & sleep 0.3 && wmctrl -xa Alacritty.Alacritty
 
 # CALCULADORA
 ctrl + alt + c
   gnome-calculator
+
+# EMACS EVERYWHERE
+ctrl + alt + y
+  emacsclient --eval '(emacs-everywhere)'
 
