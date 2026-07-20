@@ -50,6 +50,8 @@ ctrl + alt + p
 ctrl + alt + t
   alacritty
 #  alacritty & sleep 0.3 && wmctrl -xa Alacritty.Alacritty
+button2
+  alacritty
 
 # CALCULADORA
 ctrl + alt + c
@@ -58,4 +60,6 @@ ctrl + alt + c
 # EMACS EVERYWHERE
 ctrl + alt + y
   emacsclient --eval '(emacs-everywhere)'
+
+  
 
