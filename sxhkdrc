@@ -50,8 +50,8 @@ ctrl + alt + p
 ctrl + alt + t
   alacritty
 #  alacritty & sleep 0.3 && wmctrl -xa Alacritty.Alacritty
-button2
-  alacritty
+#button2
+#  alacritty
 
 # CALCULADORA
 ctrl + alt + c
@@ -61,5 +61,9 @@ ctrl + alt + c
 ctrl + alt + y
   emacsclient --eval '(emacs-everywhere)'
 
-  
+# ACESSO AO SERVIDOR
+ctrl + alt + s
+  servidor-conectar
 
+alt + F1
+  /home/guto/.config/sxhkd/ajuda.sh
