@@ -39,5 +39,5 @@ CTRL + ALT + Y > <b>EMACS EVERYWHERE</b>
 EOF
 )
 
-notify-send -t 3000 "󰌌    ALT + F1 > ATALHOS DE TECLADO" "$CORPO"
+notify-send -e "󰌌    ALT + F1 > ATALHOS DE TECLADO" "$CORPO"
 
