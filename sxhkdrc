@@ -12,7 +12,7 @@ ctrl + alt + f
 
 # EMACS
 ctrl + alt + e
-  emacsclient -n -c -a ''
+  /home/guto/bin/open_emacs.sh
 
 # GOOGLE AGENDA
 ctrl + alt + g ; a
@@ -48,10 +48,8 @@ ctrl + alt + p
 
 # TERMINAL
 ctrl + alt + t
-  alacritty
-#  alacritty & sleep 0.3 && wmctrl -xa Alacritty.Alacritty
-#button2
 #  alacritty
+  /home/guto/bin/open_alacritty.sh
 
 # CALCULADORA
 ctrl + alt + c
@@ -59,7 +57,7 @@ ctrl + alt + c
 
 # EMACS EVERYWHERE
 ctrl + alt + y
-  emacsclient --eval '(emacs-everywhere)'
+  /home/guto/bin/with_emacs_everywhere.sh
 
 # ACESSO AO SERVIDOR
 ctrl + alt + s
